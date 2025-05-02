@@ -1,0 +1,61 @@
+.partners{
+    // outline: 3px solid yellow;
+    min-height: 492px;
+    background-image: url('../img/partners-bg.webp');
+    background-position: center;
+    background-size: cover;
+   
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.partners__op{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #0a0808;
+    // opacity: 0.6;
+    filter: opacity(64%);
+}
+
+.partners__container{
+    display: flex;
+    column-gap: 90px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.partners__link, .partners__img{
+    display: block;
+    filter: opacity(1);
+    
+}
+
+.p-img1{
+    width: 210px;
+    height: 127px;
+}
+
+.p-img2{
+    width: 210px;
+    height: 210px;
+}
+
+.p-img3{
+    width: 210px;
+    height: 130px;
+}
+
+.p-img4{
+    width: 210px;
+    height: 164px;
+}

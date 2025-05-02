@@ -1,0 +1,133 @@
+.recent-posts{
+  margin-bottom: 50px;
+}
+
+.recent-post {
+
+  &__title {
+    font-family: "Raleway-SemiBold";
+    font-size: 30px;
+    text-align: center;
+    color: rgba(85, 85, 85, 1);
+    margin-top: 82px;
+  }
+
+  &__desc {
+    margin: 0 auto;
+    max-width: 757px;
+    font-family: "Montserrat-Light";
+    font-size: 16px;
+    text-align: center;
+    color: rgba(139.99755, 139.99755, 139.99755, 1);
+    margin-bottom: 27px;
+  }
+}
+
+.recent-posts-flex{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.recent-posts-article {
+  width: 373px;
+  height: fit-content;
+  box-sizing: border-box;
+  position: relative;
+  
+  &__date{
+    position: absolute;
+    width: 53px;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+    top: 25px;
+    left: 25px;
+ 
+  }
+
+  &__date-day{
+    background: #363636;
+    font-family: "Montserrat-Light";
+    font-size: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    display: block;
+  }
+
+  &__date-nonth{
+
+display: block;
+
+font-family: "Roboto-Regular";
+font-size: 12px;
+
+background-color: #252525;
+
+color: rgba(255, 255, 255, 1);
+text-align: center;
+
+  }
+}
+
+.recent-posts-img {
+  max-width: 100%;
+   min-height: 248px;
+  object-fit: cover;
+  display: block;
+}
+
+.recent-posts-desc {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    background-color: #777777;
+
+  &__title {
+    display: block;
+
+    font-family: "Raleway-Medium";
+    font-size: 19px;
+
+    text-align: left;
+    color: rgba(85, 85, 85, 1);
+    margin-bottom: 20px;
+  }
+
+  &__desc {
+    display: block;
+    font-family: "Montserrat-Light";
+    font-size: 14px;
+    text-align: left;
+    color: rgba(139, 139, 139, 1);
+    margin-bottom: 20px;
+  }
+
+  &__ref {
+    text-decoration: none;
+font-family: "Montserrat-Light";
+text-align: left;
+color: rgba(199, 177, 153, 1);
+margin-bottom: 34px;
+display: block;
+
+
+  }
+
+  &__ref::after{
+    content: '►'; /* Символ маркера */
+    color: #C7B299; /* Цвет маркера */ 
+    padding-left: 8px;
+    
+}
+}
+
+
+
+.recent-posts-article:hover .recent-posts-desc{
+    padding-top: 0;
+    border-top: 20px solid black;
+}
+

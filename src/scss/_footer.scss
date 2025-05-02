@@ -1,0 +1,106 @@
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+  background-color: #191919;
+}
+
+.footer__block-title {
+  font-family: "Raleway-Bold";
+  font-size: 24px;
+
+  line-height: 15.6px;
+
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.wexom {
+  max-width: 259px;
+}
+
+.footer-recent {
+  max-width: 272px;
+}
+
+.footer-twitter {
+  max-width: 272px;
+}
+
+footer span {
+  display: block;
+}
+
+footer time {
+  font-family: "Montserrat-Light";
+  font-size: 12px;
+
+  line-height: 20px;
+
+  text-align: left;
+  color: rgba(54, 54, 54, 1);
+}
+
+.footer__post-important{
+
+
+
+font-family: "Montserrat-Light";
+font-size: 14px;
+
+line-height: 20px;
+
+text-align: left;
+color: rgba(0, 191, 242, 1);
+
+}
+
+.footer__post {
+  font-family: "Montserrat-Light";
+  font-size: 14px;
+
+  line-height: 20px;
+
+  text-align: left;
+  color: rgba(84, 84, 84, 1);
+}
+
+.footer__post-twitter-time{
+
+
+
+font-family: "Montserrat-Light";
+font-size: 12px;
+
+line-height: 20px;
+
+text-align: left;
+color: rgba(54, 54, 54, 1);
+
+}
+
+.dribble{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+.footer__widjet-block{
+    flex-basis: 133px;
+    height: 100px;
+
+   
+    border: 1px dashed navy;
+
+}
+
+.dribble-h2{
+    width: 100%;
+
+}

@@ -1,0 +1,47 @@
+// body{
+//     margin: 0;
+//     padding: 0;
+// }
+
+.outer-container{
+    // outline: 3px solid red;
+    max-width: 1920px;
+}
+
+.inner-container{
+    max-width: 1230px
+}
+
+%clear-list-style{
+    padding: 0;
+    margin: 0;
+    list-style-type: none
+}
+
+%clear-btn-style{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: none;
+}
+
+@mixin slider-font($fontfamily: '', $fontsize: 16, $color: white, $mb: 0){
+    margin: 0;
+    padding: 0;
+    color: $color;
+    text-align: center;
+    font-family: $fontfamily;
+    font-size: $fontsize;
+    margin-bottom: $mb;
+    text-transform: capitalize;
+}
+@import '_fonts';
+@import 'header';
+@import 'services';
+@import 'latest-projects';
+@import 'video_pres';
+@import '_mobile-devixe.scss';
+@import'conters';
+@import'_recent-posts.scss';
+@import '_partners.scss';
+@import'_footer.scss';

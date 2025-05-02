@@ -1,0 +1,82 @@
+.counters__flex{
+    display: flex;
+    justify-content: center;
+}
+
+.counters {
+  background-color: #f4f5f8;
+  padding: 70px 0 93px 0;
+
+  &__figure {
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+  }
+
+  &__ficaption{
+    position: relative;
+    
+  }
+
+  &__ficaption::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 33px;
+    height: 5px;
+    background-color: white;
+    margin-top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__counter {
+    font-family: "Montserrat-Thin";
+    font-size: 48px;
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    text-align: center;
+  }
+
+  &__img{
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__desc {
+    font-family: "Montserrat-Light";
+    font-size: 14px;
+    
+    color: rgba(199, 177, 153, 1);
+    display: block;
+    text-align: center;
+  }
+}
+
+.img1 {
+  width: 46px;
+  height: 46px;
+}
+
+.img2 {
+    width: 51px;
+    height: 47px;
+  }
+
+  .img3 {
+    width: 46px;
+    height: 46px;
+  }
+
+
+  .img4 {
+    width: 57px;
+    height: 47px;
+  }
+
+
+  .img5 {
+    width: 56px;
+    height: 46px;
+  }
+
